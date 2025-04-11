@@ -1,0 +1,28 @@
+# https://docs.neoforged.net/docs/gettingstarted/modfiles
+
+modLoader = "lowcodefml"
+loaderVersion = "[1,)" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+
+license = "AGPL-3.0"
+issueTrackerURL = "https://github.com/"
+# showAsDataPack = false
+# showAsResourcePack = false
+
+[[mods]]
+modId = ""
+version = "0.0.1"
+displayName = ""
+description = """"""
+logoFile = "pack.png"
+# updateJSONURL = ""
+# credits = ""
+authors = ""
+# displayURL = "https://github.com/"
+
+[[dependencies.mod_id]]
+modId = "minecraft"
+# type = "required" # required, optional, discouraged or incompatible. default is required
+# reason = ""
+# versionRange = "" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+# ordering = "NONE" # NONE, AFTER, BEFORE. default is NONE
+# side = "BOTH" # BOTH, CLIENT, SERVER. default is BOTH

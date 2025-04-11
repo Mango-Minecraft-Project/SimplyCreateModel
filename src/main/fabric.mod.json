@@ -1,0 +1,31 @@
+// https://wiki.fabricmc.net/documentation:fabric_mod_json
+{
+  // Mandatory fields
+  "schemaVersion": 1,
+  "id": "",
+  "version": "0.0.1",
+
+  // Optional fields
+  // - Mod Loading
+  "environment": "*", // client, server, or * (both client and server). default: *
+
+  // - Dependency resolution
+  "depends": {},
+  "recommends": {},
+  "suggests": {},
+  "breaks": {},
+  "conflicts": {},
+
+  // - Metadata
+  "name": "",
+  "description": "",
+  "contact": {
+    "homepage": "https://modrinth.com/",
+    "sources": "https://github.com/",
+    "issues": "https://github.com//issues"
+  },
+  "authors": [""],
+  "contributors": [],
+  "license": "AGPL-3.0",
+  "icon": "pack.png"
+}
