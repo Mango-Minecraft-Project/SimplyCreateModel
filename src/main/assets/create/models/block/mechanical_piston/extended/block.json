@@ -1,0 +1,40 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent": "block/block",
+	"textures": {
+		"0": "create:block/andesite_casing_piston",
+		"1": "create:block/piston_bottom",
+		"2": "create:block/gearbox",
+		"3": "create:block/piston_inner",
+		"4": "block/piston_side",
+		"5": "create:block/pole_end",
+		"particle": "create:block/andesite_casing_piston"
+	},
+	"elements": [
+		{
+			"name": "Bottom",
+			"from": [0, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 4, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Extension",
+			"from": [6, 12, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [12, 0, 16, 4], "rotation": 270, "texture": "#4"},
+				"east": {"uv": [12, 0, 16, 4], "rotation": 270, "texture": "#4"},
+				"south": {"uv": [12, 0, 16, 4], "rotation": 270, "texture": "#4"},
+				"west": {"uv": [12, 0, 16, 4], "rotation": 270, "texture": "#4"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#5"}
+			}
+		}
+	]
+}

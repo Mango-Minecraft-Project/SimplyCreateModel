@@ -4,25 +4,29 @@ modLoader = "lowcodefml"
 loaderVersion = "[1,)" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 
 license = "AGPL-3.0"
-issueTrackerURL = "https://github.com/"
-# showAsDataPack = false
-# showAsResourcePack = false
+issueTrackerURL = "https://github.com/Mango-Minecraft-Project/SimplyCreateModel-IssueTracker/issues"
+showAsResourcePack = true
 
 [[mods]]
-modId = ""
-version = "0.0.1"
-displayName = ""
-description = """"""
+modId = "simply_create_model"
+version = "1.0.0"
+displayName = "Simply Create Model｜简单动力"
+description = """Optimise many Create mod models.
+简化了大部分机械动力的模型。"""
 logoFile = "pack.png"
-# updateJSONURL = ""
-# credits = ""
-authors = ""
-# displayURL = "https://github.com/"
+updateJSONURL = "https://api.modrinth.com/updates/yqmcXBDx/forge_updates.json"
+credits = "Created By YaTangDragon, and packaged by MangoJellyPudding"
+authors = "YaTangDragon, MangoJellyPudding"
+displayURL = "https://modrinth.com/project/yqmcXBDx"
 
-[[dependencies.mod_id]]
+[[dependencies.simply_create_model]]
 modId = "minecraft"
 # type = "required" # required, optional, discouraged or incompatible. default is required
 # reason = ""
-# versionRange = "" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+versionRange = "[1.21.1]" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 # ordering = "NONE" # NONE, AFTER, BEFORE. default is NONE
-# side = "BOTH" # BOTH, CLIENT, SERVER. default is BOTH
+side = "CLIENT" # BOTH, CLIENT, SERVER. default is BOTH
+
+[[dependencies.simply_create_model]]
+modId = "create"
+side = "CLIENT"

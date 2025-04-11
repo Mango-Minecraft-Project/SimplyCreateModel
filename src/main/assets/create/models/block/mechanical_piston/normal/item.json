@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "create:block/andesite_casing_piston",
+		"1": "create:block/piston_bottom",
+		"2": "create:block/gearbox",
+		"3": "create:block/piston_inner",
+		"4": "block/piston_side",
+		"5": "block/piston_top",
+		"particle": "create:block/axis",
+		"1_0": "create:block/axis",
+		"1_1": "create:block/axis_top"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#3"}
+			}
+		},
+		{
+			"name": "Axis",
+			"from": [6, 6, -0.0625],
+			"to": [10, 10, 16.0625],
+			"faces": {
+				"north": {"uv": [6, 6, 10, 10], "rotation": 180, "texture": "#1_1"},
+				"east": {"uv": [6, 0, 10, 16], "rotation": 90, "texture": "#1_0"},
+				"south": {"uv": [6, 6, 10, 10], "texture": "#1_1"},
+				"west": {"uv": [6, 0, 10, 16], "rotation": 270, "texture": "#1_0"},
+				"up": {"uv": [6, 0, 10, 16], "texture": "#1_0"},
+				"down": {"uv": [6, 0, 10, 16], "rotation": 180, "texture": "#1_0"}
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [0, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 4, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "shaft",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1]
+		},
+		2
+	]
+}

@@ -2,29 +2,32 @@
 {
   // Mandatory fields
   "schemaVersion": 1,
-  "id": "",
-  "version": "0.0.1",
+  "id": "simply_create_model",
+  "version": "1.0.0",
 
   // Optional fields
   // - Mod Loading
-  "environment": "*", // client, server, or * (both client and server). default: *
+  "environment": "client", // client, server, or * (both client and server). default: *
 
   // - Dependency resolution
-  "depends": {},
-  "recommends": {},
-  "suggests": {},
-  "breaks": {},
-  "conflicts": {},
+  "depends": {
+    "minecraft": "1.21.1",
+    "create": "*"
+  },
+  // "recommends": {},
+  // "suggests": {},
+  // "breaks": {},
+  // "conflicts": {},
 
   // - Metadata
-  "name": "",
-  "description": "",
+  "name": "Simply Create Model｜简单动力",
+  "description": "Optimise many Create mod models.\n简化了大部分机械动力的模型。",
   "contact": {
-    "homepage": "https://modrinth.com/",
-    "sources": "https://github.com/",
-    "issues": "https://github.com//issues"
+    "homepage": "https://modrinth.com/project/yqmcXBDx",
+    "sources": "https://github.com/Mango-Minecraft-Project/SimplyCreateModel",
+    "issues": "https://github.com/Mango-Minecraft-Project/SimplyCreateModel/issues"
   },
-  "authors": [""],
+  "authors": ["YaTangDragon", "MangoJellyPudding"],
   "contributors": [],
   "license": "AGPL-3.0",
   "icon": "pack.png"

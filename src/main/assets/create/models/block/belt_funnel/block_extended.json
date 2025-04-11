@@ -1,0 +1,89 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"back": "create:block/funnel/funnel_back",
+		"base": "create:block/funnel/brass_funnel",
+		"direction": "create:block/funnel/brass_funnel_neutral",
+		"redstone": "create:block/funnel/brass_funnel_unpowered",
+		"particle": "create:block/brass_block"
+	},
+	"elements": [
+		{
+			"from": [0, -3, 0],
+			"to": [16, 16, 6],
+			"faces": {
+				"north": {"uv": [0, 6.5, 8, 16], "rotation": 180, "texture": "#direction"},
+				"east": {"uv": [11, 0, 8, 9.5], "texture": "#direction"},
+				"south": {"uv": [0, 4.5, 8, 14.5], "rotation": 180, "texture": "#direction"},
+				"west": {"uv": [8, 0, 11, 9.5], "texture": "#direction"},
+				"up": {"uv": [8, 10, 16, 13], "texture": "#direction"},
+				"down": {"uv": [0, 6.5, 8, 9.5], "texture": "#direction"}
+			}
+		},
+		{
+			"from": [1.95, -3, 6],
+			"to": [14.05, 10.05, 0],
+			"faces": {
+				"east": {"uv": [13, 6, 16, 12.5], "rotation": 180, "texture": "#base"},
+				"west": {"uv": [13, 8.5, 16, 16], "texture": "#base"},
+				"up": {"uv": [16, 8, 13, 14], "rotation": 270, "texture": "#base"}
+			}
+		},
+		{
+			"name": "BackExtension",
+			"from": [2, -3, 6],
+			"to": [14, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#base"},
+				"east": {"uv": [0, 0, 7.5, 3.5], "rotation": 90, "texture": "#back"},
+				"south": {"uv": [0, 7.5, 7.5, 16], "texture": "#back"},
+				"west": {"uv": [0, 3.5, 7.5, 0], "rotation": 90, "texture": "#back"},
+				"up": {"uv": [10.5, 3.5, 15.5, 7], "rotation": 180, "texture": "#back"},
+				"down": {"uv": [0, 0, 7.5, 3.5], "texture": "#back"}
+			}
+		},
+		{
+			"name": "Back",
+			"from": [2.05, -2, 14],
+			"to": [13.95, 12.95, 18.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 6]},
+			"faces": {
+				"north": {"uv": [4, 0, 16, 16], "texture": "#redstone"},
+				"east": {"uv": [0, 0, 4, 16], "texture": "#redstone"},
+				"south": {"uv": [0, 8, 6, 16], "texture": "#base"},
+				"west": {"uv": [0, 16, 4, 0], "rotation": 180, "texture": "#redstone"},
+				"up": {"uv": [8, 2, 12, 14], "rotation": 270, "texture": "#redstone"},
+				"down": {"uv": [8, 2, 12, 14], "rotation": 90, "texture": "#redstone"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "BeltFunnel",
+			"origin": [9, -4, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "FrontSection",
+					"origin": [9, -4, 8],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Extension",
+					"origin": [9, -4, 8],
+					"color": 0,
+					"children": [2]
+				},
+				{
+					"name": "Base",
+					"origin": [9, -4, 8],
+					"color": 0,
+					"children": [3]
+				}
+			]
+		}
+	]
+}

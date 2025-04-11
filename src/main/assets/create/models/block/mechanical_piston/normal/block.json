@@ -1,0 +1,40 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent": "block/block",
+	"textures": {
+		"1": "create:block/piston_bottom",
+		"2": "create:block/gearbox",
+		"4": "block/piston_side",
+		"5": "block/piston_top",
+		"6": "create:block/andesite_casing_piston",
+		"particle": "create:block/andesite_casing"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Bottom",
+			"from": [0, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 4, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 4, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 4, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
+}

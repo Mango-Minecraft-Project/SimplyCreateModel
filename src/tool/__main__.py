@@ -1,5 +1,6 @@
 import zipfile
 import tomllib
+import pyjson5
 from pathlib import Path
 
 CWD = Path.cwd()
@@ -18,14 +19,37 @@ def get_files(type):
         case "resource_pack":
             files = ["assets/", "pack.png", "pack.mcmeta"]
         case "mod":
-            files = ["data/", "META-INF/", "pack.png", "pack.mcmeta"]
-    return map(lambda path: CWD / "src/main" / path, files)
+            files = [
+                "assets/",
+                "data/",
+                "META-INF/",
+                "pack.png",
+                "pack.mcmeta",
+                "fabric.mod.json",
+            ]
+    return filter(
+        lambda path: path.exists(), map(lambda path: CWD / "src/main" / path, files)
+    )
 
 
 def get_version() -> str:
     """get version from src/main/META-INF/mods.toml"""
-    with open(CWD / "src/main/META-INF/mods.toml", "rb") as file:
-        return tomllib.load(file)["mods"][0]["version"]
+    forge_metadata = CWD / "src/main/META-INF/mods.toml"
+    neoforge_metadata = CWD / "src/main/META-INF/neoforge.mods.toml"
+    fabric_metadata = CWD / "src/main/fabric.mod.json"
+
+    if forge_metadata.is_file() and neoforge_metadata.is_file():
+        with (forge_metadata if forge_metadata.is_file() else neoforge_metadata).open(
+            "rb"
+        ) as file:
+            return tomllib.load(file)["mods"][0]["version"]
+    elif fabric_metadata.is_file():
+        with fabric_metadata.open("r", encoding="utf-8") as file:
+            return pyjson5.load(file)["version"]
+    else:
+        raise FileNotFoundError(
+            "No metadata file found. Please ensure META-INF/mods.toml, META-INF/neoforge.mods.toml or fabric.mod.json exists."
+        )
 
 
 def get_output_filename(type):
@@ -70,8 +94,8 @@ def package(type):
 
 def main():
     # package("data_pack")
-    # package("resource_pack")
-    # package("mod")
+    package("resource_pack")
+    package("mod")
     ...
 
 
