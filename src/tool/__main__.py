@@ -38,7 +38,7 @@ def get_version() -> str:
     neoforge_metadata = CWD / "src/main/META-INF/neoforge.mods.toml"
     fabric_metadata = CWD / "src/main/fabric.mod.json"
 
-    if forge_metadata.is_file() and neoforge_metadata.is_file():
+    if forge_metadata.is_file() or neoforge_metadata.is_file():
         with (forge_metadata if forge_metadata.is_file() else neoforge_metadata).open(
             "rb"
         ) as file:
