@@ -11,8 +11,9 @@
 
 </div>
 
-Model / texture author: [YaTangDragon](https://space.bilibili.com/454794521/)
-Packager: [YTMango](https://github.com/EvanHsieh0415)
+> [!NOTE]
+> Model / texture author: [YaTangDragon](https://space.bilibili.com/454794521/)  
+> Packager: [YTMango](https://github.com/EvanHsieh0415)
 
 Simplified most of Create mod's models
 The optimization effect of resource pack is limited, and the actual optimization situation may not be obvious.
