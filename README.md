@@ -4,7 +4,7 @@
 
 <img src="src/main/pack.png" width="200px">
 
-| Mod: [![][modrinth-badge]][modrinth-link-mod] | Resource Pack: [![][modrinth-badge]][modrinth-link-resource] |
+| Mod: [![][modrinth-badge-mod]][modrinth-link-mod] | Resource Pack: [![][modrinth-badge-resource]][modrinth-link-resource] |
 | --------------------------------------------- | ------------------------------------------------------------ |
 
 ## Welcome to Simply Create Model!
