@@ -1,23 +1,24 @@
 <div align="center">
 
-# {ModName}
+# \[SCM\] Simply Create Model
 
-<img src="src/main/pack.png" width="200px">
+<img src="src/main/pack.png?raw=1" width="200px">
 
-| [![][modrinth-badge]][modrinth-link] | [![][curseforge-badge]][curseforge-link] | [![][discord-badge]][discord-link] |
-| ------------------------------------ | ---------------------------------------- | ---------------------------------- |
+| Mod: [![][modrinth-badge]][modrinth-link-mod] | Resource Pack: [![][modrinth-badge]][modrinth-link-resource] |
+| --------------------------------------------- | ------------------------------------------------------------ |
 
-## Welcome to {ModName}!
+## Welcome to Simply Create Model!
 
 </div>
 
-{Description}
+Model / texture author: [YaTangDragon](https://space.bilibili.com/454794521/)
+Packager: [YTMango](https://github.com/EvanHsieh0415)
 
+Simplified most of Create mod's models
+The optimization effect of resource pack is limited, and the actual optimization situation may not be obvious.
 
+If it doesn't load successfully, please press `F3+T` once.
 
 [modrinth-badge]: https://img.shields.io/modrinth/dt/{modrinth-project-id}?style=for-the-badge&logo=modrinth&labelColor=16181c&color=00ad5b
-[modrinth-link]: https://modrinth.com/projects/...
-[curseforge-badge]: https://img.shields.io/curseforge/dt/{curseforge-project-id}?style=for-the-badge&logo=curseforge&label=CurseForge%20Downloads&labelColor=0d0d0d&color=ff784d
-[curseforge-link]: https://www.curseforge.com/projects/...
-[discord-badge]: https://img.shields.io/discord/{discord-id}?style=for-the-badge&logo=discord&label=discord&labelColor=2b2d31&color=23a55a
-[discord-link]: https://discord.com/invite/...
+[modrinth-link-resource]: https://modrinth.com/projects/yqmcXBDx
+[modrinth-link-mod]: https://modrinth.com/projects/4cnrKlAs
