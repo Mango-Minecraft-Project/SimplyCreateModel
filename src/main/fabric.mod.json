@@ -1,25 +1,15 @@
-// https://wiki.fabricmc.net/documentation:fabric_mod_json
 {
-  // Mandatory fields
   "schemaVersion": 1,
   "id": "simply_create_model",
   "version": "1.0.0",
 
-  // Optional fields
-  // - Mod Loading
-  "environment": "client", // client, server, or * (both client and server). default: *
+  "environment": "client",
 
-  // - Dependency resolution
   "depends": {
-    "minecraft": "1.21.1",
-    "create": "*"
+    "minecraft": ["1.20.1", "1.21.1"],
+    "create": ">=0.5"
   },
-  // "recommends": {},
-  // "suggests": {},
-  // "breaks": {},
-  // "conflicts": {},
 
-  // - Metadata
   "name": "Simply Create Model｜简单动力",
   "description": "Optimise many Create mod models.\n简化了大部分机械动力的模型。",
   "contact": {

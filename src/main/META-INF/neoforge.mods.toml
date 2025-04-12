@@ -29,4 +29,5 @@ side = "CLIENT" # BOTH, CLIENT, SERVER. default is BOTH
 
 [[dependencies.simply_create_model]]
 modId = "create"
+versionRange = "[0.5,)"
 side = "CLIENT"
