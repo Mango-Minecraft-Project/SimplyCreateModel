@@ -2,7 +2,7 @@
 
 # \[SCM\] Simply Create Model
 
-<img src="src/main/pack.png?raw=1" width="200px">
+<img src="src/main/pack.png" width="200px">
 
 | Mod: [![][modrinth-badge]][modrinth-link-mod] | Resource Pack: [![][modrinth-badge]][modrinth-link-resource] |
 | --------------------------------------------- | ------------------------------------------------------------ |
@@ -19,6 +19,7 @@ The optimization effect of resource pack is limited, and the actual optimization
 
 If it doesn't load successfully, please press `F3+T` once.
 
-[modrinth-badge]: https://img.shields.io/modrinth/dt/{modrinth-project-id}?style=for-the-badge&logo=modrinth&labelColor=16181c&color=00ad5b
+[modrinth-badge-resource]: https://img.shields.io/modrinth/dt/yqmcXBDx?style=for-the-badge&logo=modrinth&labelColor=16181c&color=00ad5b
+[modrinth-badge-mod]: https://img.shields.io/modrinth/dt/4cnrKlAs?style=for-the-badge&logo=modrinth&labelColor=16181c&color=00ad5b
 [modrinth-link-resource]: https://modrinth.com/projects/yqmcXBDx
 [modrinth-link-mod]: https://modrinth.com/projects/4cnrKlAs
