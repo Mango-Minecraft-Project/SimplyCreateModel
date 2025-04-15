@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "作者：亚龙糖浆（B站）\n简化了大部分机械动力的模型",
+    "pack_format": 15,
+    "supported_formats": [15, 34]
+  }
+}

@@ -1,0 +1,35 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+	"parent": "block/block",
+	"textures": {
+		"0": "block/piston_side",
+		"2": "block/piston_top",
+		"particle": "block/piston_top"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Pole",
+			"from": [6, 0, 6],
+			"to": [10, 16, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 4], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

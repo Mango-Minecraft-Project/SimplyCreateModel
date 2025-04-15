@@ -1,0 +1,37 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"textures": {
+		"gearbox_top": "create:block/gearbox_top",
+		"gearbox": "create:block/gearbox",
+		"andesite_casing_short": "create:block/andesite_casing_short",
+		"particle": "create:block/mechanical_saw_top",
+		"mechanical_saw_top": "create:block/mechanical_saw_top"
+	},
+	"elements": [
+		{
+			"name": "Bottom",
+			"from": [0, 0, 0],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [0, 4, 16, 16], "texture": "#gearbox"},
+				"east": {"uv": [0, 4, 16, 16], "texture": "#andesite_casing_short"},
+				"south": {"uv": [0, 4, 16, 16], "texture": "#gearbox"},
+				"west": {"uv": [0, 4, 16, 16], "texture": "#andesite_casing_short"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#mechanical_saw_top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#gearbox_top"}
+			}
+		},
+		{
+			"name": "Top",
+			"from": [0, 12, 1.95],
+			"to": [16, 13, 14.05],
+			"faces": {
+				"north": {"uv": [16, 2, 0, 3], "texture": "#mechanical_saw_top"},
+				"east": {"uv": [0, 2, 1, 14], "rotation": 90, "texture": "#mechanical_saw_top"},
+				"south": {"uv": [0, 13, 16, 14], "texture": "#mechanical_saw_top"},
+				"west": {"uv": [15, 2, 16, 14], "rotation": 270, "texture": "#mechanical_saw_top"},
+				"up": {"uv": [0, 2, 16, 14], "texture": "#mechanical_saw_top"}
+			}
+		}
+	]
+}

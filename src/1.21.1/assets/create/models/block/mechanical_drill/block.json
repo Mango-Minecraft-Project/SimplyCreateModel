@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "create:block/mechanical_drill_top",
+		"10": "create:block/andesite_casing_very_short",
+		"particle": "create:block/gearbox",
+		"gearbox": "create:block/gearbox"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [0, 0, 0],
+			"to": [16, 9, 16],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 4.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 16, 16], "texture": "#10"},
+				"east": {"uv": [0, 6, 16, 16], "texture": "#10"},
+				"south": {"uv": [0, 6, 16, 16], "texture": "#10"},
+				"west": {"uv": [0, 6, 16, 16], "texture": "#10"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#gearbox"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "casing",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

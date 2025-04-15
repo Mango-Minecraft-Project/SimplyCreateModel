@@ -1,0 +1,42 @@
+# Blender 4.2.0 MTL File: 'None'
+# www.blender.org
+
+newmtl crushing_wheel_insert
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/hmcl/瓦尔基里服务器/.minecraft/versions/机械动力材质测试/resourcepacks/更好的水车v1.1/assets/create/textures/block/crushing_wheel_insert.png
+
+newmtl crushing_wheel_plates
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/hmcl/瓦尔基里服务器/.minecraft/versions/机械动力材质测试/resourcepacks/更好的水车v1.1/assets/create/textures/block/crushing_wheel_plates.png
+
+newmtl m_axis
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd #axis
+
+newmtl m_axis_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd #axis_top
