@@ -9,7 +9,7 @@ showAsResourcePack = true
 
 [[mods]]
 modId = "simply_create_model"
-version = "1.0.0"
+version = "1.0.1"
 displayName = "Simply Create Model｜简单动力"
 description = """Optimise many Create mod models.
 简化了大部分机械动力的模型。"""
