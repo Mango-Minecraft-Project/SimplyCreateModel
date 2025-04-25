@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"0": "create:block/gearbox",
+		"5": "create:block/millstone",
+		"particle": "create:block/palettes/stone_types/cap/andesite_cut_cap"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 6, 16],
+			"faces": {
+				"north": {"uv": [0, 13, 8, 16], "texture": "#5"},
+				"east": {"uv": [0, 13, 8, 16], "texture": "#5"},
+				"south": {"uv": [0, 13, 8, 16], "texture": "#5"},
+				"west": {"uv": [0, 13, 8, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 6, 6], "rotation": 270, "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [2, 12, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [10, 8, 16, 10], "texture": "#5"},
+				"east": {"uv": [10, 8, 16, 10], "texture": "#5"},
+				"south": {"uv": [10, 8, 16, 10], "texture": "#5"},
+				"west": {"uv": [10, 8, 16, 10], "texture": "#5"},
+				"up": {"uv": [16, 2, 10, 8], "texture": "#5"},
+				"down": {"uv": [16, 2, 10, 8], "texture": "#5"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "bottom",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		},
+		1
+	]
+}
