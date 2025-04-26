@@ -22,7 +22,7 @@ displayURL = "https://modrinth.com/project/yqmcXBDx"
 [[dependencies.simply_create_model]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1],[1.21.1]" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
+versionRange = "[1.20.1]" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 side = "CLIENT" # BOTH, CLIENT, SERVER. default is BOTH
 
 [[dependencies.simply_create_model]]

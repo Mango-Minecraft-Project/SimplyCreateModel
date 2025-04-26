@@ -21,7 +21,7 @@ displayURL = "https://modrinth.com/project/yqmcXBDx"
 
 [[dependencies.simply_create_model]]
 modId = "minecraft"
-# type = "required" # required, optional, discouraged or incompatible. default is required
+type = "required" # required, optional, discouraged or incompatible. default is required
 # reason = ""
 versionRange = "[1.21.1]" # https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html
 # ordering = "NONE" # NONE, AFTER, BEFORE. default is NONE
@@ -29,5 +29,6 @@ side = "CLIENT" # BOTH, CLIENT, SERVER. default is BOTH
 
 [[dependencies.simply_create_model]]
 modId = "create"
+type = "required"
 versionRange = "[0.5,)"
 side = "CLIENT"
